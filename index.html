@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Lista</title>
+    <title>Tarefas</title>
 </head>
 <body>
-
     <div class="container">
         <div class="content">
-            <div class="list-content">
-                <div class="list-texts">
-                    <input class="list-text" type="text">
-                    <button onclick="buttonAddItem()" class="list-add">+</button>
-                </div>
-                <div class="list-alert">
-                </div>
+            <div class="content_item-add">
+                <input class="item-add_input" type="text">
+                <button class="item-add_button">
+                    <img src="assets/button-icon.svg" alt="Ícone do botão">
+                </button>
             </div>
-            <div class="list-content-itens">
-                <ul class="list-itens">
-                </ul>
-            </div>
+            <ul class="content-list">
+                <!-- <li class="list-item">
+                    <div class="list-item_itens">
+                        <button class="list-item_check"></button>
+                        <p class="list-item_text">teste</p>
+                    </div>
+                    <div class="list-item_buttons">
+                        <button class="list-item_button">
+                            <img class="edit-icon" src="assets/pen-icon.svg" alt="Ícone de edição">
+                        </button>
+                        <button class="list-item_button">
+                            <img class="delete-icon" src="assets/trash-icon.svg" alt="Ícone de excluir">
+                        </button>
+                        <button class="list-item_button">
+                            <img class="check-icon" src="assets/check-icon.svg" alt="Ícone de concluir">
+                        </button>
+                    </div>
+                </li> -->
+            </ul>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
