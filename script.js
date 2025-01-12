@@ -18,6 +18,8 @@ function buttonCreateItem() {
 
     function listButtons() {
 
+        itemListCreate.classList.add('list-item-2')
+
         listItemButtons.classList.add('list-item_buttons');
         itemListCreate.append(listItemButtons); // colocando a div dentro do li
 
@@ -62,6 +64,7 @@ function buttonCreateItem() {
 
     function listButtonsHide() {
         listItemButtons.remove();
+        itemListCreate.classList.remove('list-item-2')
     };
 
     const itemListCreate = document.createElement('li');
@@ -102,7 +105,6 @@ function buttonCreateItem() {
 
 buttonAddItem.addEventListener('click', buttonCreateItem);
 
-// botão enter
 inputItemName.addEventListener('keydown', function (event) {
     if (event.key === "Enter") {
         buttonCreateItem();

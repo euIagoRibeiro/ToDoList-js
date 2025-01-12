@@ -7,6 +7,11 @@
 :root {
     --color-black: #000;
     --color-white: #fff;
+    --color-background: #ffd6dd;
+    --color-background2: #ffffffbe;
+    --color-check: #000;
+    --color-confirm: #99e9bc;
+    --color-scrollbar: #ccc;
     --primary-font: "Montserrat", sans-serif;
 }
 
